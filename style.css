@@ -1,0 +1,99 @@
+body {
+  font-family: "Times New Roman";
+  margin: auto;
+  width: 900px;
+  line-height: 1.4em;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  margin-top: 20px;
+}
+
+header h1 {
+  font-size: 38px;
+}
+
+.title {
+  margin-top: -10px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin-top: -5px;
+}
+
+.links li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.location {
+  font-style: italic;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: -21px;
+  border: 1px solid darkgrey;
+}
+
+/* Center everything inside the header */
+header {
+    text-align: center;
+}
+
+/* Make navbar links inline horizontally */
+#links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+#links li {
+    margin: 0 15px;
+}
+
+#links a {
+    text-decoration: none;
+}
+
+.year, .location {
+  float: right;
+  font-size: 95%;
+  font-style: italic;
+  margin-top: -42px;
+}
+
+.project {
+  padding-left: 10px;
+}
+
+.project ul{
+  margin-top: -17px;
+}
+
+.school {
+  font-style: italic;
+  margin-top: -20px;
+  padding-left: 10px;
+}
+
+.note {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid black;
+  max-width: 70%;
+  margin: 3% auto;
+}

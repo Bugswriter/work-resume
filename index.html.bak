@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Kushwah - DevOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="name">Suraj Kushwah</h1>
+        <p class="title">DevOps Engineer - UP, India, 243006</p>
+        <nav class="links">
+            <ul>
+                <li><a href="https://bugswriter.com">bugswriter.com</a></li>
+                <li><a href="mailto:suraj@bugswriter.com">suraj@bugswriter.com</a></li>
+                <li><a href="https://linkedin.com/in/bugswriter">linkedin.com/in/bugswriter</a></li>
+                <li><a href="https://github.com/bugswriter">github.com/bugswriter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="work-experience">
+            <h2>Work Experience</h2><hr>
+            <p class="note">4 years of experience with two full-time roles and multiple freelance projects in DevOps & Developer.</p>
+            <article class="job">
+                <h3>OnePlay Cloud Gaming – DevOps</h3>
+                <p class="location">Mumbai, India ; Jul 2023 – Present</p>
+                <ul>
+                    <li>Architected and managed Prod /QA / Dev env. Infrastructure on AWS, Linode & GCP cloud, focusing on cost efficiency.</li>
+                    <li>Designed and optimized GPU-based gaming servers deployed on site at Yotta Data Center, Mumbai.</li>
+                    <li>Built Kubernetes clusters for microservices and workloads, ensuring scalability and redundancy.</li>
+                    <li>Implemented CI/CD with Jenkins pipelines for automated builds, testing, and deployment across multiple environments.</li>
+                    <li>Deployed AWS GuardDuty, WAF, and HashiCorp Vault to strengthen cloud security, secrets management, and compliance.</li>
+                    <li>Built an advanced observability stack with Grafana, Prometheus, Kibana, and Zabbix with custom alerting.</li>
+                    <li>Deployed & managed database clusters like Percona MySQL, MongoDB, Redis, InfluxDB and Elasticsearch.</li>
+                    <li>Automated server provisioning, scaling, and maintenance tasks using Terraform, Ansible, and Bash/Python scripts.</li>
+                    <li>Led on-call incident management, minimizing downtime with proactive monitoring, log analysis, and automated failover strategies.</li>
+                </ul>
+            </article>
+
+            <article class="job">
+                <h3>Bipolar Factory – DevOps & Backend Engineer</h3>
+                <p class="location">Bangalore, India ; Nov 2021 – Apr 2023</p>
+                
+                <section class="project">
+                    <h4>Falcon - AI Powered Surveillance</h4>
+                    <ul>
+                        <li>Developed real-time CCTV inference pipelines leveraging DeepStream & TensorRT, improving video processing speed.</li>
+                        <li>Built a REST API for AI-based smart surveillance, integrating automated anomaly detection & security alerts.</li>
+                        <li>Optimized distributed processing pipelines for handling high-resolution video feeds.</li>
+                    </ul>
+                </section>
+
+                <section class="project">
+                    <h4>Goa Election Project</h4>
+                    <ul>
+                        <li>Managed 200+ RTSP CCTV streams for real-time election monitoring.</li>
+                        <li>Developed a sound-based vote counting system using AI to detect voting machine beeps.</li>
+                        <li>Automated server deployment & scaling for monitoring high-traffic election dashboards.</li>
+                    </ul>
+                </section>
+
+                <section class="project">
+                    <h4>StreamQuicker – Low-Latency Video Streaming</h4>
+                    <ul>
+                        <li>Developed a WebRTC to RTMP streaming service using FFmpeg, RTMP, and ossrs/srs.</li>
+                        <li>Designed auto-scalable, distributed streaming architecture, improving latency and stream reliability.</li>
+                        <li>Used AI models to predict and distribute streaming loads efficiently across servers.</li>
+                    </ul>
+                </section>
+
+                <section class="project">
+                    <h4>AiViS – Industrial AI & Automation</h4>
+                    <ul>
+                        <li>Developed an AI-powered defect detection system for manufacturing quality control.</li>
+                        <li>Integrated PLC controllers for real-time industrial automation in factory conveyor systems.</li>
+                        <li>Built a data pipeline for analyzing, alerting, and reporting defects in production lines.</li>
+                    </ul>
+                </section>
+
+                <section class="project">
+                    <h4>SafePlant – ML-Based Factory Workers Safety System</h4>
+                    <ul>
+                        <li>Led the development of a plant safety system utilizing machine learning and computer vision to detect safety hazards.</li>
+                        <li>Trained models using TensorFlow to analyze plant images and videos for potential risks.</li>
+                        <li>Developed a Flask-based backend web service with WebSocket integration for real-time communication.</li>
+                    </ul>
+                </section>
+            </article>
+        </section>
+
+        <section class="skills">
+            <h2>Key Skills</h2><hr>
+            <ul>
+                <li><strong>Cloud & DevOps:</strong> AWS, Linode, Kubernetes, Docker, Terraform, CI/CD, GitLab, Jenkins</li>
+                <li><strong>Infrastructure Management:</strong> Foreman & Puppet, Nginx, Wazuh, Zabbix, Grafana, Uptime Kuma</li>
+                <li><strong>Security & Compliance:</strong> HashiCorp Vault, Auditd, IAM, Cloudflare, SSO, Pritunl VPN</li>
+                <li><strong>Monitoring & Logging:</strong> Prometheus, Grafana, ELK Stack (Elasticsearch, Logstash, Kibana), InfluxDB</li>
+                <li><strong>Networking & Load Balancing:</strong> Nginx, HAProxy, Apache</li>
+                <li><strong>High Availability & Scalability:</strong> Auto Scaling, Load Balancers, Multi-Region Deployments, Proxmox, KVM</li>
+                <li><strong>Message Queues & Databases:</strong> Kafka, RabbitMQ, Redis, PostgreSQL, MySQL, MongoDB</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2><hr>
+            <article class="degree">
+                <h4>Bachelor in Technology & Computer Science</h3>
+                <p class="year">2018-2021</p>
+                <p class="school">Dr. A.P.J. Abdul Kalam University - Lucknow, UP, India</p>
+            </article>
+            <article class="degree">
+                <h4>Senior Secondary College</h3>
+                <p class="year">2015-2016</p>
+                <p class="school">Maharishi Vidya Mandir - Bareilly, UP, India</p>
+            </article>
+        </section>
+
+        <section class="personal-projects">
+            <h2>Personal Projects</h2><hr>
+            <p class="note">All my projects source code is avaiable on <i>https://github.com/bugswriter/&lt;project-title&gt;.git</i></p>
+            <ul>
+                <li><strong>ffmagic</strong>: A simple DVR (digital video recorder) system written in Python. Runs FFmpeg with async multiprocessing.</li>
+                <li><strong>tuxi</strong>: A smart command-line assistant written in Shell. Widely used by Linux users, powered by Google search.</li>
+                <li><strong>cook50</strong>: A virtualized recipe book with a meal planner and timer, written in Flask. Features a login system.</li>
+                <li><strong>zest-website</strong>: College fest website with over 2000 student registrations. Includes profiles, events and admin dashboard.</li>
+                <li><strong>bugsnavi</strong>: A custom OS script to automate the installation and configuration of Arch Linux and essential software.</li>
+                <li><strong>offerclub</strong>: An eCommerce website built from scratch using Flask. Includes card, checkout and order management.</li>
+            </ul>
+        </section>
+
+        <section class="misc">
+            <h2>Miscellaneous</h2><hr>
+            <p>&nbsp; Beyond my professional endeavors, I am the creator of the <a href="https://www.youtube.com/@bugswriter_">BugsWriter</a> YouTube channel, which has garnered over <b>30,000</b> subscribers. The channel focuses on self hosting, Linux, and computer-related content, aiming to educate and inspire tech enthusiasts worldwide.</p>
+            <p class="note">For more details about my work, visit my personal website: <a href="https://www.bugswriter.com/work/">https://bugswriter.com/work</a></p>
+        </section>
+    </main>
+</body>
+</html>
